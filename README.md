@@ -19,30 +19,20 @@ Jupyter Notebook 6.0.3
 
 ### RandomOverSampler model
 
-The balanced accuracy score is 65%.
-The high_risk precision is about 1% only with 62% sensitivity which makes a F1 of 2% only.
-Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 68%.
+The RandomOverSampler has an accuracy score of 64%, total precision score of 99% and total recall score of 60%
+
+![Screenshot 2022-11-13 133614](https://user-images.githubusercontent.com/108438270/201543437-14ffcf10-6d66-47dc-ae63-5102cd388d84.png)
+
 
 ### SMOTE model
 
 The results are pretty similar to the previous model.
 The balanced accuracy score is 64%.
-The high_risk precision is about 1% only with 63% sensitivity which makes a F1 of 2% only.
-Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 66%.
+The SMOTE Oversampling has a total precision score of 99% and total recall score of 60%
+
+![Screenshot 2022-11-13 133829](https://user-images.githubusercontent.com/108438270/201543566-1e761485-79ab-4005-a442-c93bce7da849.png)
 
 
-### ClusterCentroids model
-
-Here the balanced accuracy score is down to about 52%.
-The high_risk precision is still 1% only with 63% sensitivity which makes a F1 of 1%.
-Due to the high number of false positives, the low_risk sensitivity is only 40%.
-
-
-### 
-
-The balanced accuracy score is about 62%.
-The high_risk precision is still 1% only with 68% sensitivity which makes a F1 of only 2%.
-Due to the high number of false positives, the low_risk sensitivity is 57%.
 
 
 ### BalancedRandomForestClassifier model
